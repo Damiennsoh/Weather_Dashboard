@@ -28,3 +28,65 @@ header{
         margin-top: 1rem !important;
         margin-bottom: 1rem !important;
     }
+
+
+.form-group {
+    margin-bottom: 0;
+}
+
+#history {
+    border-top: 2px solid rgb(174 174 174);
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+
+#today {
+    border: 2px solid black;
+    margin-top: 0.5rem;
+    /* margin-right: -15px; */
+    padding: 8px;
+    align-self: flex-start;
+}
+
+#forecast {
+    /* border: 2px solid black; */
+    margin-top: 0.5rem;
+    margin-left: 0;
+    /* padding-right: 0; */
+    /* padding: 8px; */
+    align-self: flex-start;
+}
+
+.btn-secondary {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(174 174 174);
+    color: rgb(26 26 26);
+    border-color: rgb(174 174 174);
+}
+
+.btn p {
+    margin-bottom: 0;
+}
+
+#form-group-full-width {
+
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.five-day-forecast-row {
+    column-gap: 20px;
+}
+
+.five-day-forecast-col {
+    /* margin: 10px; */
+    background-color: rgb(45 62 80);
+    color: white;
+}
+
+h5 {
+    margin-bottom: 1.25rem;
+}
